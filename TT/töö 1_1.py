@@ -83,7 +83,7 @@ while True:
     except ZeroDivisionError:
         print("jagaja ei tohi olla 0")
 
-# #8
+#8
 print("   @..@")
 print("  (----)")
 print(" ( \__/ )")
