@@ -24,8 +24,8 @@ while True:
         print("Ristküliku pindala", S) #lisasin ""
         P=2*(b+c) # lisasin *
         print("Ristküliku ümbermõõt", P)
-        di=math.sqrt(b*2+c*2)
-        print("Ristküliku diagonaal", round(di)) #lisasin )
+        di=math.sqrt(b**2+c**2)
+        print("Ristküliku diagonaal", round(di,2)) #lisasin )
         break
     except ValueError:
         print("palun sisesta arvud")
