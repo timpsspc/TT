@@ -10,6 +10,7 @@ while True:
         print("Ruudu ümbermõõt", P)  #lisasin´´ aseml "
         di=a*math.sqrt(2)
         print("Ruudu diagonaal", round(di,2))
+        break
     except ValueError:
         print("palun sisesta arvud")
 
@@ -25,6 +26,7 @@ while True:
         print("Ristküliku ümbermõõt", P)
         di=math.sqrt(b*2+c*2)
         print("Ristküliku diagonaal", round(di)) #lisasin )
+        break
     except ValueError:
         print("palun sisesta arvud")
 
@@ -35,9 +37,10 @@ while True:
         r=float(input("Sisesta ringi raadiusi pikkus => ")) #lisasin "" lisasin float()
         di=2*r #lisaisin *
         print("Ringi läbimõõt", di) # lisasin ,
-        S=math.pi*r*2 # eemaldasin ()
+        S=math.pi*r**2 # eemaldasin ()
         print("Ringi pindala", round(S))
         C=2*math.pi*r #lisain * ja eemaldasin ()
         print("Ringjoone pikkus", round(C)) #lisasin )
+        break
     except ValueError:
         print("palun sisesta arvud")
